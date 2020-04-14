@@ -1,0 +1,67 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "title": "Panes criollo",
+            "description": "Lorem ipsum description",
+            "price": "44.00",
+            "imageSrc": "producto-1.jpg"
+        },
+        {
+            "id": "2",
+            "title": "Pan casero",
+            "description": "Lorem ipsum description",
+            "price": "30.00",
+            "imageSrc": "producto-2.jpg"
+        },
+        {
+            "id": "3",
+            "title": "Pan Fránces",
+            "description": "Lorem ipsum description",
+            "price": "45.00",
+            "imageSrc": "producto-3.jpg"
+        },
+        {
+            "id": "4",
+            "title": "Media Luna",
+            "description": "Lorem ipsum description",
+            "price": "75.00",
+            "imageSrc": "producto-4.jpg"
+        },
+        {
+            "id": "5",
+            "title": "Cupcake",
+            "description": "Lorem ipsum description",
+            "price": "39.00",
+            "imageSrc": "producto-5.jpg"
+        },
+        {
+            "id": "6",
+            "title": "Cupcake de chocolate",
+            "description": "Lorem ipsum description",
+            "price": "25.00",
+            "imageSrc": "producto-6.jpg"
+        },
+        {
+            "id": "7",
+            "title": "Pizzeta dulce",
+            "description": "Lorem ipsum description",
+            "price": "35.00",
+            "imageSrc": "producto-7.jpg"
+        },
+        {
+            "id": "8",
+            "title": "Pan de Trigo",
+            "description": "Lorem ipsum description",
+            "price": "40.00",
+            "imageSrc": "producto-8.jpg"
+        },
+        {
+            "id": "9",
+            "title": "Salmorejo cordobes",
+            "description": "Lorem ipsum description",
+            "price": "60.00",
+            "imageSrc": "producto-9.jpg"
+        }
+    ]
+}

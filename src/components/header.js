@@ -1,38 +1,69 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import styled from "styled-components"
+import Wrapper from "../theme/wrapper"
+import logo from "../images/logo.png"
+import Navigate from "./navigateBlock"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+const HeaderItem = styled.header`
+  background-color: ${props => props.theme.paleGreen};
+  padding: 10px 0;
+  position: relative;
+  &:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 5px;
+    background-color: ${props => props.theme.limeade}
+  }
+`;
+
+const LogoItem = styled.div`
+  width: 15%;
+  height: 100%;
+  @media (max-width: 568px){
+        width: 25%;
+    }
+`;
+
+const NavigateItem = styled.div`
+  width: 85%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  @media (max-width: 568px){
+        width: 75%;
+    }
+`;
+
+const CustomWrapp = {
+  'align-items': 'center'
+};
+
+const Header = () => {
+
+  return (
+    <HeaderItem>
+      <Wrapper css={CustomWrapp}>
+        <LogoItem>
+          <Link to="/">
+            <img src={logo} alt="Logo Panadería Don Pablo" />
+          </Link>
+        </LogoItem>
+        <NavigateItem>
+          <Navigate />
+        </NavigateItem>
+      </Wrapper>
+    </HeaderItem>
+  )
+}
 
 Header.propTypes = {
-  siteTitle: PropTypes.string,
+  siteTitle: PropTypes.string
 }
 
 Header.defaultProps = {
