@@ -7,6 +7,13 @@ import PageContent from "../components/pageContent"
 
 const detailsText = "Maecenas pellentesque aliquam ultrices. Nullam gravida, sem nec pulvinar sodales, lorem magna suscipit tellus, pellentesque condimentum ligula elit eu mauris. Proin ultricies ut nunc ut commodo. Duis id ullamcorper turpis. Etiam aliquet eget erat a sollicitudin. Cras placerat justo vitae est pretium vehicula. Proin ultricies ut nunc ut commodo. Duis id ullamcorper turpis. Etiam aliquet eget erat a sollicitudin. Cras placerat justo vitae est pretium vehicula. Proin ultricies ut nunc ut commodo. Duis id ullamcorper turpis. Etiam aliquet eget erat a sollicitudin. Cras placerat justo vitae est pretium vehicula.";
 
+/**
+ * Component to show internal page
+ * It requires Layout, seo, banner and pageContent components
+ * We can declare more pages duplicating this file
+ *
+ * @component
+ */
 const AboutusPage = () => (
   <Layout>
     <SEO title="Nosotros" />

@@ -17,6 +17,12 @@ import { ThemeProvider } from "styled-components"
 import * as theme from "../theme/theme"
 import Footer from "./footer"
 
+/**
+ * Component for Layout in general site.
+ * This component wrap all components of web app to simple navigation. Its connected with pages component
+ *
+ * @component
+ */
 const Layout = ({ children }) => {
 
   const data = useStaticQuery(graphql`

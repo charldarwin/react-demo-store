@@ -11,7 +11,17 @@ const FooterItem = styled.footer`
     color: ${props => props.theme.white};
 `;
 
-
+/**
+ * Component for showing Footer.
+ * This component require date prop
+ *
+ * @component
+ * @example
+ * const date = 20;
+ * return (
+ *   <Footer date={date} />
+ * )
+ */
 const Footer = ({ date }) => (
     <FooterItem>
         <Wrapper>

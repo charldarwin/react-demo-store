@@ -68,6 +68,16 @@ const BannerH3 = styled.h3`
     font-size: 2.5em;
 `;
 
+/**
+ * Component for showing banner in frontpage or internal Pages based on inside prop
+ *
+ * @component
+ * @example
+ * const inside; // To show small Banner for internal pages
+ * return (
+ *   <Banner inside />
+ * )
+ */
 const Banner = ({ inside }) => {
     return (
         <BannerItem className={inside ? 'inside' : ''}>

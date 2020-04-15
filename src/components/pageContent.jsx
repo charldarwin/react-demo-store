@@ -24,6 +24,19 @@ const TextContent = styled.div`
     text-align: justify;
 `;
 
+/**
+ * Component for page content.
+ * This component request 3 props
+ *
+ * @component
+ * @example
+ * const title="Home";
+ * const details="Text content for page";
+ * const repeatDetails; // Useful to repeat details content 4 times
+ * return (
+ *   <PageContent title={title} details={details} repeatDetails />
+ * )
+ */
 const PageContent = ({ title, details, repeatDetails }) => (
     <PageSect>
         <Wrapper>

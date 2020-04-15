@@ -57,6 +57,16 @@ const LinkItem = {
     'position': 'relative'
 }
 
+/**
+ * Component for showing Navigation.
+ * This component doesn't require any prop
+ *
+ * @component
+ * @example
+ * return (
+ *   <NavigateBlock />
+ * )
+ */
 const NavigateBlock = () => (
     <NavItem>
         <Link css={LinkItem} to="/">Inicio</Link>

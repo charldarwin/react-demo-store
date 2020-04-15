@@ -24,7 +24,17 @@ const ProductsList = styled.div`
 `;
 
 
-
+/**
+ * Component for showing list of products.
+ * This component request graphQL request to get data
+ * This component doesn't require any prop
+ *
+ * @component
+ * @example
+ * return (
+ *   <Products />
+ * )
+ */
 const Products = () => {
 
     const products = useStaticQuery(graphql`

@@ -7,6 +7,12 @@ import PageContent from "../components/pageContent"
 
 const detailsText = "La ruta a la que desea acceder, ha sido eliminada o no existe";
 
+/**
+ * Component to declare error 404 request.
+ * It requires Layout, seo, banner and pageContent components
+ *
+ * @component
+ */
 const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Página no encontrada" />

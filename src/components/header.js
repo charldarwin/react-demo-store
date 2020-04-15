@@ -44,6 +44,17 @@ const CustomWrapp = {
   'align-items': 'center'
 };
 
+/**
+ * Component for showing Header.
+ * This component require siteTitle prop
+ *
+ * @component
+ * @example
+ * const siteTitle = "My App";
+ * return (
+ *   <Header siteTitle={siteTitle} />
+ * )
+ */
 const Header = () => {
 
   return (

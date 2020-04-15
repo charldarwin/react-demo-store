@@ -17,6 +17,18 @@ const TitleItem = styled.h2`
         font-size: 1.75em;
     }
 `;
+
+/**
+ * Component for title.
+ * This component only request title prop and can preserve standard style for all pages
+ *
+ * @component
+ * @example
+ * const title="Home";
+ * return (
+ *   <PageTitle title={title} />
+ * )
+ */
 const PageTitle = ({ title }) => (
     <TitleItem>{title}</TitleItem>
 )

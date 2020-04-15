@@ -39,6 +39,20 @@ const BoxWrapper = styled.div`
 const Message = styled.p`
     color: ${props => props.theme.grey};
 `;
+
+/**
+ * Component to notify user when add product to shopping cart.
+ * This component request title and image of product.
+ * This component require action button in parent component to generate alert effect
+ *
+ * @component
+ * @example
+ * const title="Product 1";
+ * const image=<ImageComponent></ImageComponent>;
+ * return (
+ *   <ProductAlert title={title} image={image} />
+ * )
+ */
 const ProductAlert = ({ title, image }) => (
     <ModalWrap>
         <BoxWrapper>
