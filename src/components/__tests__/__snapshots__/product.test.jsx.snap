@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product component Renders 1`] = `
+<div
+  className="sc-AxhCb jXRveB"
+>
+  <div
+    className="sc-AxmLO kMpVNt"
+  />
+  <h4
+    className="sc-AxhUy gNPlep"
+  >
+    Panes criollo
+  </h4>
+  <div
+    className="sc-AxgMl eHuohS"
+  >
+    Lorem ipsum description
+  </div>
+  <div
+    className="sc-AxheI foIRpa"
+  >
+    <span>
+      $ 
+      44.00
+    </span>
+    <span
+      className="quantity"
+    >
+      Kg
+    </span>
+  </div>
+  <button
+    className="sc-Axmtr eIfzHA"
+    data-id="1"
+    data-price="44.00"
+    onClick={[Function]}
+  >
+    <span
+      className="icon"
+    >
+      <img
+        alt="ícono carrito"
+        src="test-file-stub"
+      />
+    </span>
+    <span>
+      Añadir
+    </span>
+  </button>
+  
+</div>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageContent component Renders 1`] = `
+<section
+  className="sc-AxiKw dNQpti"
+>
+  <div
+    className="sc-AxjAm becqpx"
+  >
+    <h2
+      className="sc-AxirZ ewkXco"
+    >
+      Simple page
+    </h2>
+    <div
+      className="sc-AxhCb hCbHFA"
+    >
+      Lorem content for simple sample page
+    </div>
+  </div>
+</section>
+`;
